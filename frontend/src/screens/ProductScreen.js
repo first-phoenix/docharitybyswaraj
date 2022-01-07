@@ -114,7 +114,7 @@ const ProductScreen = ({ history, match }) => {
                   {product.countInStock > 0 && (
                     <ListGroup.Item>
                       <Row>
-                        <Col>Donation Amount:</Col>
+                        <Col>Donation Amount (₹):</Col>
                         <Col>
                           <Form.Control
                             as='input'    //changed from select to input
@@ -134,7 +134,7 @@ const ProductScreen = ({ history, match }) => {
                       type='button'
                       disabled={product.countInStock === 0}
                     >
-                      Add To Cart
+                      Donate
                     </Button>
                   </ListGroup.Item>
                 </ListGroup>
