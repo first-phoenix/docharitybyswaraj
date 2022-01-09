@@ -84,7 +84,6 @@ const ProductScreen = ({ history, match }) => {
                     text={`${product.numReviews} reviews`}
                   />
                 </ListGroup.Item>
-                {/* <ListGroup.Item>Price: ${product.price}</ListGroup.Item> */}
                 <ListGroup.Item>
                   Description: {product.description}
                 </ListGroup.Item>
@@ -93,15 +92,6 @@ const ProductScreen = ({ history, match }) => {
             <Col md={3}>
               <Card>
                 <ListGroup variant='flush'>
-                  {/* <ListGroup.Item>
-                    <Row>
-                      <Col>Price:</Col>
-                      <Col>
-                        <strong>${product.price}</strong>
-                      </Col>
-                    </Row>
-                  </ListGroup.Item> */}
-
                   <ListGroup.Item>
                     <Row>
                       <Col>Status:</Col>
@@ -155,7 +145,7 @@ const ProductScreen = ({ history, match }) => {
                   </ListGroup.Item>
                 ))}
                 <ListGroup.Item>
-                  <h2>Write a Customer Review</h2>
+                  <h2>Write a Donor Review</h2>
                   {successProductReview && (
                     <Message variant='success'>
                       Review submitted successfully
