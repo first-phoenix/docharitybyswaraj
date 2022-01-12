@@ -1,7 +1,7 @@
 {
   "name": "DoCharity",
   "version": "1.0.0",
-  "description": "MERN charity management app",
+  "description": "MERN shopping cart app",
   "main": "server.js",
   "type": "module",
   "scripts": {
