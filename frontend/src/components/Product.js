@@ -23,7 +23,6 @@ const Product = ({ product }) => {
             text={`${product.numReviews} reviews`}
           />
         </Card.Text>
-
       </Card.Body>
     </Card>
   )
