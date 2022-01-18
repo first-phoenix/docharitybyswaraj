@@ -125,7 +125,7 @@ const ProfileScreen = ({ location, history }) => {
                 <th>ID</th>
                 <th>DATE</th>
                 <th>TOTAL</th>
-                <th>PAID</th>
+                <th>Donated</th>
                 <th></th>
               </tr>
             </thead>
